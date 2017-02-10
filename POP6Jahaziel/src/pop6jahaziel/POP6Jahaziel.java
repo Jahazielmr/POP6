@@ -7,7 +7,15 @@ public class POP6Jahaziel {
         
         
         
+    
         
+    }
+  
+    public static String puto(String p){
+        while(true){
+            p = "puto";
+            System.out.println(puto(p));
+        }
         
     }
     
