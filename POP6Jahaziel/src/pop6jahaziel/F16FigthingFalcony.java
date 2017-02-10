@@ -2,7 +2,7 @@ package pop6jahaziel;
 
 import java.util.Date;
 
-public class F16FigthingFalcony extends Aviones{
+public class F16FigthingFalcony extends Avion{
     
     private int Cant_Combustible; 
 

@@ -8,12 +8,14 @@ public class POP6Jahaziel {
         
     }
 
-    public String listar(ArrayList Arreglo){
-        String lista="";
+    // F4 50 
+    // F16 200
+    // F117 250
+    public String listar(ArrayList Arreglo) {
+        String lista = "";
         for (int i = 0; i < Arreglo.size(); i++) {
-            lista+=i+". "+Arreglo.get(i)+"\n";
+            lista += i + ". " + Arreglo.get(i) + "\n";
         }
         return lista;
     }
-    
 }

@@ -3,7 +3,7 @@ package pop6jahaziel;
 import java.awt.Color;
 import java.util.Date;
 
-public class F4Phantom extends Aviones{
+public class F4Phantom extends Avion{
     protected Color color;
 
     public F4Phantom() {

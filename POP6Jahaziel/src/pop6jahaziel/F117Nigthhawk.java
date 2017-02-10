@@ -2,7 +2,7 @@ package pop6jahaziel;
 
 import java.util.Date;
 
-public class F117Nigthhawk extends Aviones{
+public class F117Nigthhawk extends Avion{
     private String Pais;
 
     public F117Nigthhawk() {
