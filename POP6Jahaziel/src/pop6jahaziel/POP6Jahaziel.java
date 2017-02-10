@@ -9,24 +9,21 @@ public class POP6Jahaziel {
         
     }
 
+    
+    // F4 50 
+    // F16 200
+    // F117 250
+    
+    
     public String listar(ArrayList Arreglo){
         String lista="";
         for (int i = 0; i < Arreglo.size(); i++) {
             
         }
         return lista;
-        
-    
-        
+            
     }
   
-    public static String puto(String p){
-        while(true){
-            p = "puto";
-            System.out.println(puto(p));
-        }
-        
-    }
     
 
 }
