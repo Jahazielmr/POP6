@@ -2,12 +2,12 @@ package pop6jahaziel;
 
 import java.util.Date;
 
-public class Avion {
+public abstract class Avion {
   
     
     protected int Peso, Velocidad;
     protected Date Fecha;
-    protected String Estado;
+    protected String Estado="";
 
     public Avion() {
     }
@@ -57,6 +57,9 @@ public class Avion {
                 + ", Fecha=" + Fecha + ", Estado=" + Estado + '}';
     }
     
+    public abstract void Volar();
+    public abstract void Aterriza();
+    public abstract void CargarCombustible();
     
     
     
